@@ -53,11 +53,6 @@ export default function LoginPage() {
 
         {/* Card */}
         <div className="glass rounded-2xl border border-white/10 p-8 shadow-[0_0_60px_rgba(139,92,246,0.1)]">
-          {/* Demo hint */}
-          <div className="mb-6 p-3 rounded-xl bg-purple-500/10 border border-purple-500/20 text-xs text-purple-300">
-            <span className="font-semibold">Demo:</span> Use any email + any password (6+ chars)
-          </div>
-
           <form onSubmit={handleSubmit} className="space-y-5">
             {/* Email */}
             <div>
