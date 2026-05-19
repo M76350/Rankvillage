@@ -9,15 +9,17 @@ export interface User {
   plan: "starter" | "pro" | "business";
   businessName: string;
   location: string;
+  businessType?: string;
   avatar: string;
 }
 
 interface AuthContextType {
   user: User | null;
   loading: boolean;
-  login: (email: string, password: string) => Promise<{ ok: boolean; error?: string }>;
-  signup: (data: SignupData) => Promise<{ ok: boolean; error?: string }>;
-  logout: () => void;
+  login:      (email: string, password: string) => Promise<{ ok: boolean; error?: string }>;
+  signup:     (data: SignupData) => Promise<{ ok: boolean; error?: string }>;
+  logout:     () => Promise<void>;
+  updateUser: (data: Partial<User>) => void;
 }
 
 interface SignupData {
@@ -27,75 +29,71 @@ interface SignupData {
   businessName: string;
   location: string;
   businessType: string;
+  plan?: string;
 }
 
 const AuthContext = createContext<AuthContextType | null>(null);
 
-// Static demo user
-const DEMO_USER: User = {
-  id: "usr_001",
-  name: "Rajesh Sharma",
-  email: "rajesh@sharmarestaurant.com",
-  plan: "pro",
-  businessName: "Sharma Restaurant",
-  location: "Dwarka, Delhi",
-  avatar: "RS",
-};
-
-const STORAGE_KEY = "rv_user";
-
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [user, setUser] = useState<User | null>(null);
+  const [user, setUser]       = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
+  // ── Restore session from httpOnly cookie via /api/auth/me ───────────────
   useEffect(() => {
-    try {
-      const stored = localStorage.getItem(STORAGE_KEY);
-      if (stored) setUser(JSON.parse(stored));
-    } catch {
-      // ignore
-    }
-    setLoading(false);
+    fetch("/api/auth/me")
+      .then((r) => r.json())
+      .then(({ user }) => setUser(user ?? null))
+      .catch(() => setUser(null))
+      .finally(() => setLoading(false));
   }, []);
 
+  // ── Login ────────────────────────────────────────────────────────────────
   const login = async (email: string, password: string) => {
-    // Static auth — accept any email with password length >= 6
-    if (!email || password.length < 6) {
-      return { ok: false, error: "Invalid email or password." };
+    try {
+      const res = await fetch("/api/auth/login", {
+        method:  "POST",
+        headers: { "Content-Type": "application/json" },
+        body:    JSON.stringify({ email, password }),
+      });
+      const data = await res.json();
+      if (!res.ok) return { ok: false, error: data.error ?? "Login failed." };
+      setUser(data.user);
+      return { ok: true };
+    } catch {
+      return { ok: false, error: "Network error. Please try again." };
     }
-    await new Promise((r) => setTimeout(r, 800)); // simulate network
-    const u = { ...DEMO_USER, email };
-    setUser(u);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(u));
-    return { ok: true };
   };
 
+  // ── Signup ───────────────────────────────────────────────────────────────
   const signup = async (data: SignupData) => {
-    if (!data.email || data.password.length < 6) {
-      return { ok: false, error: "Password must be at least 6 characters." };
+    try {
+      const res = await fetch("/api/auth/signup", {
+        method:  "POST",
+        headers: { "Content-Type": "application/json" },
+        body:    JSON.stringify(data),
+      });
+      const json = await res.json();
+      if (!res.ok) return { ok: false, error: json.error ?? "Signup failed." };
+      setUser(json.user);
+      return { ok: true };
+    } catch {
+      return { ok: false, error: "Network error. Please try again." };
     }
-    await new Promise((r) => setTimeout(r, 1000));
-    const u: User = {
-      id: "usr_" + Date.now(),
-      name: data.name,
-      email: data.email,
-      plan: "starter",
-      businessName: data.businessName,
-      location: data.location,
-      avatar: data.name.slice(0, 2).toUpperCase(),
-    };
-    setUser(u);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(u));
-    return { ok: true };
   };
 
-  const logout = () => {
+  // ── Logout ───────────────────────────────────────────────────────────────
+  const logout = async () => {
+    await fetch("/api/auth/logout", { method: "POST" }).catch(() => {});
     setUser(null);
-    localStorage.removeItem(STORAGE_KEY);
+  };
+
+  // ── Update local user state (after profile save) ─────────────────────────
+  const updateUser = (data: Partial<User>) => {
+    setUser((prev) => (prev ? { ...prev, ...data } : prev));
   };
 
   return (
-    <AuthContext.Provider value={{ user, loading, login, signup, logout }}>
+    <AuthContext.Provider value={{ user, loading, login, signup, logout, updateUser }}>
       {children}
     </AuthContext.Provider>
   );
