@@ -1,0 +1,156 @@
+export interface Testimonial {
+  id: string;
+  name: string;
+  role: string;
+  business: string;
+  city: string;
+  rating: 1 | 2 | 3 | 4 | 5;
+  quote: string;
+  avatar?: string;
+  logo?: string;
+  videoUrl?: string;
+  service: string;
+}
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: "1",
+    name: "Rajesh Sharma",
+    role: "Owner",
+    business: "Sharma Family Restaurant",
+    city: "Dwarka, Delhi",
+    rating: 5,
+    quote: "RankVillage AI ne meri restaurant ko Google Maps pe #1 rank dilaya sirf 45 din mein. Pehle 200 views the, ab 4,800+ monthly views hain. Customers khud aa rahe hain!",
+    service: "Local SEO",
+  },
+  {
+    id: "2",
+    name: "Priya Mehta",
+    role: "Owner",
+    business: "PowerFit Gym",
+    city: "Koramangala, Bangalore",
+    rating: 5,
+    quote: "The AI review reply feature is amazing! It replies to all my gym reviews automatically in perfect Hindi and English. My rating went from 3.8 to 4.9 stars in 2 months.",
+    service: "Local SEO",
+  },
+  {
+    id: "3",
+    name: "Suresh Yadav",
+    role: "Owner",
+    business: "Suresh Fresh Dairy",
+    city: "Andheri, Mumbai",
+    rating: 5,
+    quote: "Mujhe SEO ke baare mein kuch nahi pata tha. RankVillage AI ne sab kuch automatically kar diya. Ab meri dairy 'fresh milk near me' search mein top 3 mein aati hai!",
+    service: "Local SEO",
+  },
+  {
+    id: "4",
+    name: "Meena Agarwal",
+    role: "Owner",
+    business: "Meena Medical Store",
+    city: "Banjara Hills, Hyderabad",
+    rating: 5,
+    quote: "Competitor analysis feature ne mujhe bataya ki mere competitors kya kar rahe hain. Maine unse better strategy banai aur ab mera shop unse upar rank karta hai. Best investment!",
+    service: "SEO Services",
+  },
+  {
+    id: "5",
+    name: "Ananya Kapoor",
+    role: "Owner",
+    business: "Ananya Sarees",
+    city: "Surat, Gujarat",
+    rating: 5,
+    quote: "Our online saree store went from zero to ?4 lakh monthly revenue in just 3 months. The e-commerce site RankVillage built is beautiful and so easy to manage.",
+    service: "E-commerce Development",
+  },
+  {
+    id: "6",
+    name: "Dr. Vikram Patel",
+    role: "Owner",
+    business: "Patel Dental Clinic",
+    city: "Ahmedabad, Gujarat",
+    rating: 5,
+    quote: "Google Ads campaign se hamare clinic mein 180+ new patients aaye pichle mahine. RankVillage team bahut professional hai aur results deliver karte hain.",
+    service: "Google Ads",
+  },
+  {
+    id: "7",
+    name: "Sunita Reddy",
+    role: "Owner",
+    business: "Royal Salon & Spa",
+    city: "Anna Nagar, Chennai",
+    rating: 5,
+    quote: "The new website with online booking has completely transformed our salon. We went from 20 bookings a month to 120+ and our no-show rate dropped by 60%.",
+    service: "Web Development",
+  },
+  {
+    id: "8",
+    name: "Amit Joshi",
+    role: "Director",
+    business: "Sunrise Coaching Centre",
+    city: "Kothrud, Pune",
+    rating: 5,
+    quote: "Our online enquiries went from 5 to 65 per month after the website redesign. The new site pays for itself every single day. Highly recommend RankVillage AI.",
+    service: "Web Development",
+  },
+  {
+    id: "9",
+    name: "Ravi Kumar",
+    role: "Owner",
+    business: "AutoCare Service Centre",
+    city: "Whitefield, Bangalore",
+    rating: 5,
+    quote: "Meta Ads se hamare service centre mein itne customers aane lage ki humne ek aur mechanic hire karna pada. ROI bahut achha hai — ?10,000 spend pe ?50,000+ revenue.",
+    service: "Meta Ads",
+  },
+  {
+    id: "10",
+    name: "Kavita Singh",
+    role: "Owner",
+    business: "Kavita Boutique",
+    city: "Hazratganj, Lucknow",
+    rating: 5,
+    quote: "The UI/UX redesign of our boutique website is stunning. Our customers keep complimenting how beautiful and easy to use it is. Sales have doubled since the launch.",
+    service: "UI/UX Design",
+  },
+  {
+    id: "11",
+    name: "Harish Nair",
+    role: "Manager",
+    business: "Hotel Raj Palace",
+    city: "Udaipur, Rajasthan",
+    rating: 5,
+    quote: "We are saving over ?1.2 lakh per month in OTA commissions thanks to the direct booking website RankVillage built. The technical SEO work has also improved our Google rankings significantly.",
+    service: "Web Development",
+  },
+  {
+    id: "12",
+    name: "Pooja Sharma",
+    role: "Owner",
+    business: "FreshMart Grocery",
+    city: "Baner, Pune",
+    rating: 5,
+    quote: "Our grocery delivery website is fast, beautiful, and our customers love it. The cart abandonment rate dropped by 35% after RankVillage optimised the checkout flow.",
+    service: "E-commerce Development",
+  },
+  {
+    id: "13",
+    name: "Deepak Verma",
+    role: "Owner",
+    business: "Kapoor Electronics",
+    city: "Lajpat Nagar, Delhi",
+    rating: 5,
+    quote: "Technical SEO improvements made a huge difference. Our website now loads in under 1 second and we rank on page 1 for 28 product keywords. Monthly online revenue is ?3.8 lakh.",
+    service: "Technical SEO",
+  },
+  {
+    id: "14",
+    name: "Nisha Gupta",
+    role: "Owner",
+    business: "Nisha Beauty Academy",
+    city: "Vaishali Nagar, Jaipur",
+    rating: 5,
+    quote: "RankVillage ke Google Ads campaign se hamare beauty academy mein 45 new admissions aaye ek mahine mein. Pehle sirf 8-10 hote the. Bahut khush hoon!",
+    service: "Google Ads",
+  },
+];
