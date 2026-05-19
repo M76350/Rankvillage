@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-video-preview": -1, "max-image-preview": "large", "max-snippet": -1 },
   },
   alternates: { canonical: "https://rankvillage.ai" },
+  verification: {
+    google: "YQK3fe5iAEAfcq1xPUpJTaMTn7wDonYlSEGleB9yBUI",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
