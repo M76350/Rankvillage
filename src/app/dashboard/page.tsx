@@ -2,6 +2,7 @@
 
 import { TrendingUp, MapPin, Star, BarChart3, Zap, ArrowUp, ArrowRight } from "lucide-react";
 import Link from "next/link";
+import { useAuth } from "@/lib/auth-context";
 
 const kpis = [
   { label: "SEO Score",     value: "87/100", change: "+12", up: true, icon: BarChart3,  color: "text-green-400",  bg: "bg-green-500/10",  border: "border-green-500/20" },
@@ -11,10 +12,10 @@ const kpis = [
 ];
 
 const recentActivity = [
-  { text: "AI replied to Priya S.'s review", time: "2 min ago", type: "review" },
-  { text: "Keyword 'biryani delivery Delhi' moved to #2", time: "1 hr ago", type: "keyword" },
+  { text: "AI replied to a new review", time: "2 min ago", type: "review" },
+  { text: "Keyword 'near me' moved to #2", time: "1 hr ago", type: "keyword" },
   { text: "GBP score improved from 72 to 78", time: "3 hrs ago", type: "gbp" },
-  { text: "New competitor detected: Biryani Blues", time: "Yesterday", type: "competitor" },
+  { text: "New competitor detected in your area", time: "Yesterday", type: "competitor" },
   { text: "Weekly SEO report generated", time: "2 days ago", type: "report" },
 ];
 
@@ -26,13 +27,25 @@ const quickActions = [
 ];
 
 export default function DashboardPage() {
+  const { user } = useAuth();
+  const firstName = user?.name?.split(" ")[0] ?? "there";
+
+  const getGreeting = () => {
+    const h = new Date().getHours();
+    if (h < 12) return "Good morning";
+    if (h < 17) return "Good afternoon";
+    return "Good evening";
+  };
+
   return (
     <div className="space-y-6 max-w-6xl">
       {/* Welcome */}
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="text-xl font-bold text-white">Good morning, Rajesh 👋</h2>
-          <p className="text-white/40 text-sm mt-0.5">Here&apos;s what&apos;s happening with your business today.</p>
+          <h2 className="text-xl font-bold text-white">{getGreeting()}, {firstName} 👋</h2>
+          <p className="text-white/40 text-sm mt-0.5">
+            Here&apos;s what&apos;s happening with <span className="text-white/60">{user?.businessName}</span> today.
+          </p>
         </div>
         <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 glass rounded-xl border border-purple-500/20">
           <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />

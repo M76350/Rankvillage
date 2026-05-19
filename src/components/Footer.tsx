@@ -3,10 +3,10 @@ import { Mail, Phone, MapPin, Zap } from "lucide-react";
 
 const footerLinks = {
   Product: [
-    { label: "Features",   href: "/#features" },
-    { label: "Pricing",    href: "/#pricing" },
+    { label: "Features",   href: "/features" },
+    { label: "Pricing",    href: "/pricing" },
     { label: "Dashboard",  href: "/dashboard" },
-    { label: "AI Tools",   href: "/#features" },
+    { label: "AI Tools",   href: "/tools" },
     { label: "Changelog",  href: "#" },
   ],
   Resources: [

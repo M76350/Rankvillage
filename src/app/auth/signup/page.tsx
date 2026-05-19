@@ -46,7 +46,8 @@ export default function SignupPage() {
     setLoading(true);
     const res = await signup({
       name: form.name, email: form.email, password: form.password,
-      businessName: form.businessName, location: form.location, businessType: form.businessType,
+      businessName: form.businessName, location: form.location,
+      businessType: form.businessType, plan: form.plan,
     });
     setLoading(false);
     if (res.ok) router.push("/dashboard");
