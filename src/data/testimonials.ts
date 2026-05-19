@@ -60,7 +60,7 @@ export const TESTIMONIALS: Testimonial[] = [
     business: "Ananya Sarees",
     city: "Surat, Gujarat",
     rating: 5,
-    quote: "Our online saree store went from zero to ?4 lakh monthly revenue in just 3 months. The e-commerce site RankVillage built is beautiful and so easy to manage.",
+    quote: "Our online saree store went from zero to Rs. 4 lakh monthly revenue in just 3 months. The e-commerce site RankVillage built is beautiful and so easy to manage.",
     service: "E-commerce Development",
   },
   {
@@ -100,7 +100,7 @@ export const TESTIMONIALS: Testimonial[] = [
     business: "AutoCare Service Centre",
     city: "Whitefield, Bangalore",
     rating: 5,
-    quote: "Meta Ads se hamare service centre mein itne customers aane lage ki humne ek aur mechanic hire karna pada. ROI bahut achha hai — ?10,000 spend pe ?50,000+ revenue.",
+    quote: "Meta Ads se hamare service centre mein itne customers aane lage ki humne ek aur mechanic hire karna pada. ROI bahut achha hai  -  Rs. 10,000 spend pe Rs. 50,000+ revenue.",
     service: "Meta Ads",
   },
   {
@@ -120,7 +120,7 @@ export const TESTIMONIALS: Testimonial[] = [
     business: "Hotel Raj Palace",
     city: "Udaipur, Rajasthan",
     rating: 5,
-    quote: "We are saving over ?1.2 lakh per month in OTA commissions thanks to the direct booking website RankVillage built. The technical SEO work has also improved our Google rankings significantly.",
+    quote: "We are saving over Rs. 1.2 lakh per month in OTA commissions thanks to the direct booking website RankVillage built. The technical SEO work has also improved our Google rankings significantly.",
     service: "Web Development",
   },
   {
@@ -140,7 +140,7 @@ export const TESTIMONIALS: Testimonial[] = [
     business: "Kapoor Electronics",
     city: "Lajpat Nagar, Delhi",
     rating: 5,
-    quote: "Technical SEO improvements made a huge difference. Our website now loads in under 1 second and we rank on page 1 for 28 product keywords. Monthly online revenue is ?3.8 lakh.",
+    quote: "Technical SEO improvements made a huge difference. Our website now loads in under 1 second and we rank on page 1 for 28 product keywords. Monthly online revenue is Rs. 3.8 lakh.",
     service: "Technical SEO",
   },
   {

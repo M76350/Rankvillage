@@ -31,7 +31,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       trafficGrowth: "+2,300%",
       rankingImprovement: "#1 on Google Maps",
       lighthouseScore: "97",
-      revenueImpact: "+?1.8L/month",
+      revenueImpact: "+Rs. 1.8L/month",
       timeframe: "45 days",
     },
     testimonial: {
@@ -71,7 +71,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       trafficGrowth: "+420%",
       rankingImprovement: "Page 5 to Page 1",
       lighthouseScore: "91",
-      revenueImpact: "+?95,000/month",
+      revenueImpact: "+Rs. 95,000/month",
       timeframe: "90 days",
     },
     testimonial: {
@@ -85,7 +85,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     slug: "sunrise-coaching-website-redesign",
     clientName: "Sunrise Coaching Centre",
     industry: "Education & Coaching",
-    challenge: "Sunrise Coaching Centre in Pune had a 10-year-old website with a 78% bounce rate, no mobile optimisation, and generated fewer than 5 online enquiries per month. The centre was spending ?50,000/month on newspaper ads with poor ROI while competitors with modern websites were capturing all online leads.",
+    challenge: "Sunrise Coaching Centre in Pune had a 10-year-old website with a 78% bounce rate, no mobile optimisation, and generated fewer than 5 online enquiries per month. The centre was spending Rs. 50,000/month on newspaper ads with poor ROI while competitors with modern websites were capturing all online leads.",
     solution: "We redesigned the entire website with a focus on trust signals, clear course information architecture, and a streamlined enquiry flow. We implemented technical SEO fixes, created content for 25 competitive exam keywords, set up Google Ads for high-intent searches, and built a WhatsApp integration for instant lead follow-up.",
     metrics: {
       trafficGrowth: "+280%",
@@ -105,13 +105,13 @@ export const CASE_STUDIES: CaseStudy[] = [
     slug: "hotel-raj-palace-direct-bookings",
     clientName: "Hotel Raj Palace",
     industry: "Hotel & Hospitality",
-    challenge: "Hotel Raj Palace in Udaipur was paying 18–22% commission to OTA platforms (MakeMyTrip, Booking.com) on every booking, which was severely impacting profitability. They had no direct booking capability and no digital marketing strategy to attract guests without OTA dependency.",
+    challenge: "Hotel Raj Palace in Udaipur was paying 18-22% commission to OTA platforms (MakeMyTrip, Booking.com) on every booking, which was severely impacting profitability. They had no direct booking capability and no digital marketing strategy to attract guests without OTA dependency.",
     solution: "We built a stunning hotel website with a custom direct booking engine, virtual room tour gallery, and Razorpay payment integration. We implemented a Local SEO strategy targeting 'hotels in Udaipur' keywords, ran Google Ads for high-intent travel searches, and created a loyalty programme to encourage repeat direct bookings.",
     metrics: {
       trafficGrowth: "+180%",
       rankingImprovement: "#3 for 'hotels in Udaipur'",
       lighthouseScore: "96",
-      revenueImpact: "?1.2L/month OTA commission saved",
+      revenueImpact: "Rs. 1.2L/month OTA commission saved",
       timeframe: "60 days",
     },
   },

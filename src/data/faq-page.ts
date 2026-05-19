@@ -20,19 +20,19 @@ export const FAQ_PAGE_ITEMS: FAQPageItem[] = [
     category: "seo",
     question: "What is Local SEO and why does my business need it?",
     answer:
-      "Local SEO helps your business appear in Google when people nearby search for your products or services. 97% of consumers search online for local businesses — if you are not ranking, competitors capture those customers.",
+      "Local SEO helps your business appear in Google when people nearby search for your products or services. 97% of consumers search online for local businesses - if you are not ranking, competitors capture those customers.",
   },
   {
     category: "seo",
     question: "How quickly will I see results on Google?",
     answer:
-      "Most clients see measurable improvements within 30–45 days. GBP optimizations often show in 2–4 weeks; keyword rankings typically improve in 4–8 weeks. We provide weekly progress reports.",
+      "Most clients see measurable improvements within 30-45 days. GBP optimizations often show in 2-4 weeks; keyword rankings typically improve in 4-8 weeks. We provide weekly progress reports.",
   },
   {
     category: "seo",
     question: "How is RankVillage AI different from hiring an SEO agency?",
     answer:
-      "Agencies often charge ₹15,000–₹50,000/month with slower turnaround. RankVillage AI starts at ₹999/month, is built for Indian local businesses, and combines AI automation with expert strategy.",
+      "Agencies often charge ₹15,000-₹50,000/month with slower turnaround. RankVillage AI starts at ₹999/month, is built for Indian local businesses, and combines AI automation with expert strategy.",
   },
   {
     category: "seo",
@@ -69,7 +69,7 @@ export const FAQ_PAGE_ITEMS: FAQPageItem[] = [
     category: "web-dev",
     question: "How long does a typical business website take?",
     answer:
-      "A standard local business site takes 7–14 days. E-commerce or multi-location sites may take 3–4 weeks depending on scope.",
+      "A standard local business site takes 7-14 days. E-commerce or multi-location sites may take 3-4 weeks depending on scope.",
   },
   {
     category: "web-dev",
@@ -81,7 +81,7 @@ export const FAQ_PAGE_ITEMS: FAQPageItem[] = [
     category: "web-dev",
     question: "Can I update content myself after launch?",
     answer:
-      "Yes. We integrate a simple CMS or train you on easy updates for menus, prices, photos, and blog posts — no coding required.",
+      "Yes. We integrate a simple CMS or train you on easy updates for menus, prices, photos, and blog posts - no coding required.",
   },
   {
     category: "web-dev",
@@ -112,13 +112,13 @@ export const FAQ_PAGE_ITEMS: FAQPageItem[] = [
     category: "pricing",
     question: "Is there a free plan or trial?",
     answer:
-      "Yes. You can start free with core tools. Paid plans include a 14-day trial — no credit card required to begin.",
+      "Yes. You can start free with core tools. Paid plans include a 14-day trial - no credit card required to begin.",
   },
   {
     category: "pricing",
     question: "What is included in the Starter plan?",
     answer:
-      "Starter includes keyword tracking, basic GBP insights, review reply suggestions, and email support — ideal for single-location businesses getting started.",
+      "Starter includes keyword tracking, basic GBP insights, review reply suggestions, and email support - ideal for single-location businesses getting started.",
   },
   {
     category: "pricing",
@@ -155,7 +155,7 @@ export const FAQ_PAGE_ITEMS: FAQPageItem[] = [
     category: "support",
     question: "Is my business data safe and secure?",
     answer:
-      "We use 256-bit SSL encryption, never sell your data, and connect to Google via OAuth 2.0 — we never see your passwords. We follow Indian data protection best practices.",
+      "We use 256-bit SSL encryption, never sell your data, and connect to Google via OAuth 2.0 - we never see your passwords. We follow Indian data protection best practices.",
   },
   {
     category: "support",
@@ -167,7 +167,7 @@ export const FAQ_PAGE_ITEMS: FAQPageItem[] = [
     category: "support",
     question: "How do I connect my Google Business Profile?",
     answer:
-      "From the dashboard, click Connect GBP and sign in with Google. OAuth authorises read/write access securely — setup takes under 2 minutes.",
+      "From the dashboard, click Connect GBP and sign in with Google. OAuth authorises read/write access securely - setup takes under 2 minutes.",
   },
   {
     category: "support",
@@ -180,13 +180,13 @@ export const FAQ_PAGE_ITEMS: FAQPageItem[] = [
     category: "refund",
     question: "What is your refund policy?",
     answer:
-      "If you are not satisfied within the first 14 days of a paid plan, contact us for a full refund — no questions asked. Refunds are processed within 5–7 business days.",
+      "If you are not satisfied within the first 14 days of a paid plan, contact us for a full refund - no questions asked. Refunds are processed within 5-7 business days.",
   },
   {
     category: "refund",
     question: "Can I cancel my subscription anytime?",
     answer:
-      "Yes. Cancel from Settings → Billing. Your plan remains active until the end of the current billing period; no cancellation fees apply.",
+      "Yes. Cancel from Settings -> Billing. Your plan remains active until the end of the current billing period; no cancellation fees apply.",
   },
   {
     category: "refund",
@@ -204,12 +204,12 @@ export const FAQ_PAGE_ITEMS: FAQPageItem[] = [
     category: "refund",
     question: "What if RankVillage AI does not deliver promised results?",
     answer:
-      "We set realistic timelines in writing. If we fail to deliver agreed deliverables, we will extend service at no cost or offer a prorated credit — contact your account manager.",
+      "We set realistic timelines in writing. If we fail to deliver agreed deliverables, we will extend service at no cost or offer a prorated credit - contact your account manager.",
   },
   {
     category: "refund",
     question: "How long do refunds take to appear in my account?",
     answer:
-      "Refunds are initiated within 2 business days of approval. Depending on your bank or UPI provider, funds typically appear within 5–7 business days.",
+      "Refunds are initiated within 2 business days of approval. Depending on your bank or UPI provider, funds typically appear within 5-7 business days.",
   },
 ];

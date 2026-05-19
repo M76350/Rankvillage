@@ -61,7 +61,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     stats: [
       { value: "+320%", label: "Property Enquiries" },
-      { value: "?8", label: "Cost Per Lead" },
+      { value: "Rs. 8", label: "Cost Per Lead" },
       { value: "30 Days", label: "Avg Lead to Sale" },
     ],
     color: "purple",
@@ -156,7 +156,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     stats: [
       { value: "+180%", label: "Direct Bookings" },
-      { value: "?1.2L", label: "OTA Commission Saved/Month" },
+      { value: "Rs. 1.2L", label: "OTA Commission Saved/Month" },
       { value: "#3", label: "Google Ranking" },
     ],
     color: "cyan",
@@ -194,7 +194,7 @@ export const INDUSTRIES: Industry[] = [
     ],
     stats: [
       { value: "+320%", label: "Online Bookings" },
-      { value: "?6.50", label: "Cost Per Lead via Meta Ads" },
+      { value: "Rs. 6.50", label: "Cost Per Lead via Meta Ads" },
       { value: "-60%", label: "No-show Rate" },
     ],
     color: "pink",

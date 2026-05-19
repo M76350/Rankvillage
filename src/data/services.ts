@@ -28,7 +28,7 @@ export const SERVICES: ServiceData[] = [
     ],
     benefits: [
       { icon: "Zap", title: "Lightning Fast", description: "Sub-2-second load times with Next.js static generation and CDN delivery." },
-      { icon: "Smartphone", title: "Mobile First", description: "Responsive design that looks perfect on every device — from phones to desktops." },
+      { icon: "Smartphone", title: "Mobile First", description: "Responsive design that looks perfect on every device  -  from phones to desktops." },
       { icon: "Search", title: "SEO Ready", description: "Built-in meta tags, structured data, and semantic HTML for top Google rankings." },
       { icon: "Shield", title: "Secure & Reliable", description: "HTTPS, regular backups, and 99.9% uptime guarantee for your business website." },
       { icon: "Palette", title: "Custom Design", description: "Unique designs tailored to your brand identity and target audience." },
@@ -42,7 +42,7 @@ export const SERVICES: ServiceData[] = [
       { step: 5, title: "Launch & Handover", description: "We deploy your site, set up analytics, and train you on content updates." },
     ],
     faqs: [
-      { question: "How long does it take to build a website?", answer: "A standard business website takes 7–14 days. E-commerce sites may take 3–4 weeks depending on the number of products." },
+      { question: "How long does it take to build a website?", answer: "A standard business website takes 7-14 days. E-commerce sites may take 3-4 weeks depending on the number of products." },
       { question: "Do you provide website hosting?", answer: "Yes, we offer managed hosting on Vercel or AWS with SSL, CDN, and daily backups included." },
       { question: "Can I update the website content myself?", answer: "Absolutely. We integrate a simple CMS so you can update text, images, and menus without any coding knowledge." },
       { question: "Will my website rank on Google?", answer: "Every site we build follows on-page SEO best practices. We also offer ongoing SEO services to improve your rankings over time." },
@@ -70,7 +70,7 @@ export const SERVICES: ServiceData[] = [
     ],
     benefits: [
       { icon: "Search", title: "Keyword Research", description: "We identify high-intent keywords your customers are searching for in your city." },
-      { icon: "FileText", title: "Content Optimisation", description: "On-page SEO for every page — titles, meta descriptions, headings, and body content." },
+      { icon: "FileText", title: "Content Optimisation", description: "On-page SEO for every page  -  titles, meta descriptions, headings, and body content." },
       { icon: "Link", title: "Link Building", description: "High-quality backlinks from Indian business directories and relevant websites." },
       { icon: "BarChart3", title: "Monthly Reporting", description: "Transparent reports showing keyword rankings, traffic growth, and ROI." },
       { icon: "Globe", title: "Local Citations", description: "Consistent NAP (Name, Address, Phone) across 50+ Indian business directories." },
@@ -84,11 +84,11 @@ export const SERVICES: ServiceData[] = [
       { step: 5, title: "Monitor & Improve", description: "Track rankings weekly and continuously refine the strategy for better results." },
     ],
     faqs: [
-      { question: "How long does SEO take to show results?", answer: "Most clients see measurable improvements within 60–90 days. Significant traffic growth typically happens in 4–6 months." },
+      { question: "How long does SEO take to show results?", answer: "Most clients see measurable improvements within 60-90 days. Significant traffic growth typically happens in 4-6 months." },
       { question: "Is SEO better than Google Ads?", answer: "SEO provides long-term, sustainable traffic at no per-click cost. We recommend combining both for maximum impact." },
       { question: "Do you guarantee first-page rankings?", answer: "No ethical SEO agency can guarantee specific rankings. We guarantee a proven process, transparent reporting, and measurable traffic growth." },
-      { question: "What industries do you specialise in?", answer: "We specialise in local Indian businesses — restaurants, gyms, medical stores, salons, coaching centres, and retail shops." },
-      { question: "How do you measure SEO success?", answer: "We track keyword rankings, organic traffic, click-through rates, and most importantly — leads and revenue generated." },
+      { question: "What industries do you specialise in?", answer: "We specialise in local Indian businesses  -  restaurants, gyms, medical stores, salons, coaching centres, and retail shops." },
+      { question: "How do you measure SEO success?", answer: "We track keyword rankings, organic traffic, click-through rates, and most importantly  -  leads and revenue generated." },
     ],
     results: [
       { metric: "Organic Traffic Growth", value: "+420%", client: "Meena Medical Store, Hyderabad" },
@@ -115,7 +115,7 @@ export const SERVICES: ServiceData[] = [
       { icon: "Globe", title: "Local Citations", description: "Consistent business listings across JustDial, Sulekha, IndiaMART, and 50+ directories." },
       { icon: "Search", title: "Near Me Searches", description: "Rank for high-intent searches like 'restaurant near me' and 'gym in [your city]'." },
       { icon: "BarChart3", title: "Competitor Analysis", description: "See exactly what your local competitors are doing and outrank them strategically." },
-      { icon: "Smartphone", title: "Mobile Optimisation", description: "Most local searches happen on mobile — we ensure your site converts mobile visitors." },
+      { icon: "Smartphone", title: "Mobile Optimisation", description: "Most local searches happen on mobile  -  we ensure your site converts mobile visitors." },
     ],
     process: [
       { step: 1, title: "GBP Audit", description: "Review your Google Business Profile for completeness, accuracy, and optimisation gaps." },
@@ -166,11 +166,11 @@ export const SERVICES: ServiceData[] = [
       { step: 5, title: "Ongoing Monitoring", description: "Set up alerts for new technical issues and monitor Core Web Vitals monthly." },
     ],
     faqs: [
-      { question: "What are Core Web Vitals?", answer: "Core Web Vitals are Google's metrics for page experience — Largest Contentful Paint (speed), First Input Delay (interactivity), and Cumulative Layout Shift (visual stability)." },
+      { question: "What are Core Web Vitals?", answer: "Core Web Vitals are Google's metrics for page experience  -  Largest Contentful Paint (speed), First Input Delay (interactivity), and Cumulative Layout Shift (visual stability)." },
       { question: "How do I know if my site has technical SEO issues?", answer: "Common signs include slow load times, pages not appearing in Google, or a drop in organic traffic. We offer a free technical audit to identify issues." },
       { question: "Do technical SEO fixes improve rankings?", answer: "Yes. Fixing technical issues removes barriers that prevent Google from ranking your site, often leading to quick ranking improvements." },
-      { question: "What is structured data?", answer: "Structured data is code added to your website that helps Google understand your content — enabling rich results like star ratings and FAQs in search results." },
-      { question: "How long does a technical SEO fix take?", answer: "Most critical fixes are implemented within 1–2 weeks. The full impact on rankings is typically visible within 30–60 days." },
+      { question: "What is structured data?", answer: "Structured data is code added to your website that helps Google understand your content  -  enabling rich results like star ratings and FAQs in search results." },
+      { question: "How long does a technical SEO fix take?", answer: "Most critical fixes are implemented within 1-2 weeks. The full impact on rankings is typically visible within 30-60 days." },
     ],
     results: [
       { metric: "Lighthouse Score Improvement", value: "42 to 98", client: "Kapoor Retail Store, Jaipur" },
@@ -196,7 +196,7 @@ export const SERVICES: ServiceData[] = [
       { icon: "Zap", title: "Instant Results", description: "Unlike SEO, Google Ads can drive leads within 24 hours of campaign launch." },
       { icon: "BarChart3", title: "Full Transparency", description: "Real-time dashboard showing every rupee spent and every lead generated." },
       { icon: "TrendingUp", title: "Conversion Optimisation", description: "Continuous A/B testing of ads and landing pages to improve conversion rates." },
-      { icon: "Shield", title: "Budget Control", description: "Set daily budgets and never overspend — we optimise for maximum ROI." },
+      { icon: "Shield", title: "Budget Control", description: "Set daily budgets and never overspend  -  we optimise for maximum ROI." },
       { icon: "Users", title: "Remarketing", description: "Re-engage visitors who did not convert with targeted follow-up ads." },
     ],
     process: [
@@ -207,10 +207,10 @@ export const SERVICES: ServiceData[] = [
       { step: 5, title: "Optimise & Scale", description: "Pause underperforming keywords, increase bids on winners, and scale budget." },
     ],
     faqs: [
-      { question: "How much should I spend on Google Ads?", answer: "We recommend starting with ?15,000–?30,000 per month for local businesses. Budget depends on your industry, competition, and goals." },
+      { question: "How much should I spend on Google Ads?", answer: "We recommend starting with Rs. 15,000-Rs. 30,000 per month for local businesses. Budget depends on your industry, competition, and goals." },
       { question: "How quickly will I see results?", answer: "Campaigns go live within 24 hours. You can expect leads within the first week, with performance improving over the first month." },
-      { question: "What is ROAS?", answer: "ROAS (Return on Ad Spend) measures revenue generated per rupee spent on ads. A 3.5x ROAS means you earn ?3.50 for every ?1 spent." },
-      { question: "Do you manage the campaigns or just set them up?", answer: "We provide full ongoing management — daily monitoring, weekly optimisation, and monthly strategy reviews." },
+      { question: "What is ROAS?", answer: "ROAS (Return on Ad Spend) measures revenue generated per rupee spent on ads. A 3.5x ROAS means you earn Rs. 3.50 for every Rs. 1 spent." },
+      { question: "Do you manage the campaigns or just set them up?", answer: "We provide full ongoing management  -  daily monitoring, weekly optimisation, and monthly strategy reviews." },
       { question: "Can Google Ads work for a small local business?", answer: "Absolutely. Local campaigns with geo-targeting are highly effective for small businesses and often deliver better ROI than national campaigns." },
     ],
     results: [
@@ -228,7 +228,7 @@ export const SERVICES: ServiceData[] = [
     icon: "Megaphone",
     color: "pink",
     heroStats: [
-      { value: "?8", label: "Avg Cost Per Lead" },
+      { value: "Rs. 8", label: "Avg Cost Per Lead" },
       { value: "2M+", label: "Indians Reached" },
       { value: "5x", label: "Avg ROAS" },
     ],
@@ -248,16 +248,16 @@ export const SERVICES: ServiceData[] = [
       { step: 5, title: "Scale Winners", description: "Increase budget on winning ad sets and retire underperformers." },
     ],
     faqs: [
-      { question: "What is the minimum budget for Meta Ads?", answer: "We recommend a minimum of ?10,000 per month for meaningful results. Lower budgets limit the algorithm's ability to optimise." },
-      { question: "Facebook or Instagram — which is better?", answer: "It depends on your audience. Restaurants and salons perform well on Instagram; B2B and older demographics respond better on Facebook. We test both." },
+      { question: "What is the minimum budget for Meta Ads?", answer: "We recommend a minimum of Rs. 10,000 per month for meaningful results. Lower budgets limit the algorithm's ability to optimise." },
+      { question: "Facebook or Instagram  -  which is better?", answer: "It depends on your audience. Restaurants and salons perform well on Instagram; B2B and older demographics respond better on Facebook. We test both." },
       { question: "Do you create the ad creatives?", answer: "Yes, our design team creates all ad images and videos. We just need your brand assets and product photos." },
       { question: "How do I track leads from Meta Ads?", answer: "We set up the Meta Pixel on your website and configure Lead Ads to capture leads directly in your CRM or WhatsApp." },
       { question: "Can Meta Ads work for a restaurant or salon?", answer: "Absolutely. Local awareness campaigns and offer promotions work exceptionally well for restaurants, salons, and gyms on Meta." },
     ],
     results: [
-      { metric: "Cost Per Lead", value: "?6.50", client: "Priya Beauty Salon, Mumbai" },
+      { metric: "Cost Per Lead", value: "Rs. 6.50", client: "Priya Beauty Salon, Mumbai" },
       { metric: "Instagram Followers Growth", value: "+5,200", client: "FitLife Gym, Bangalore" },
-      { metric: "Monthly Revenue from Ads", value: "+?1.8L", client: "Spice Garden Restaurant, Hyderabad" },
+      { metric: "Monthly Revenue from Ads", value: "+Rs. 1.8L", client: "Spice Garden Restaurant, Hyderabad" },
     ],
     relatedServices: ["google-ads", "ui-ux-design", "local-seo"],
   },
@@ -274,7 +274,7 @@ export const SERVICES: ServiceData[] = [
       { value: "48 Hrs", label: "First Mockup" },
     ],
     benefits: [
-      { icon: "Palette", title: "Brand Identity", description: "Consistent visual language — colours, typography, and icons that represent your brand." },
+      { icon: "Palette", title: "Brand Identity", description: "Consistent visual language  -  colours, typography, and icons that represent your brand." },
       { icon: "Smartphone", title: "Mobile-First Design", description: "Designs optimised for the devices your Indian customers actually use." },
       { icon: "Users", title: "User Research", description: "We study your target audience to design experiences they find intuitive." },
       { icon: "Zap", title: "Fast Prototyping", description: "Interactive Figma prototypes delivered within 48 hours for quick feedback." },
@@ -310,7 +310,7 @@ export const SERVICES: ServiceData[] = [
     icon: "ShoppingCart",
     color: "green",
     heroStats: [
-      { value: "?0", label: "Transaction Fees" },
+      { value: "Rs. 0", label: "Transaction Fees" },
       { value: "99.9%", label: "Uptime" },
       { value: "2x", label: "Avg Order Value" },
     ],
@@ -318,7 +318,7 @@ export const SERVICES: ServiceData[] = [
       { icon: "ShoppingCart", title: "Indian Payment Gateways", description: "Razorpay, PayU, and UPI integration for seamless Indian customer payments." },
       { icon: "FileText", title: "GST Invoicing", description: "Automatic GST-compliant invoices generated for every order." },
       { icon: "Truck", title: "Delivery Integration", description: "Connect with Shiprocket, Delhivery, and other Indian logistics partners." },
-      { icon: "Smartphone", title: "Mobile Commerce", description: "Optimised for mobile shopping — where 80% of Indian e-commerce happens." },
+      { icon: "Smartphone", title: "Mobile Commerce", description: "Optimised for mobile shopping  -  where 80% of Indian e-commerce happens." },
       { icon: "Shield", title: "Secure Checkout", description: "PCI-compliant checkout with SSL encryption and fraud protection." },
       { icon: "BarChart3", title: "Inventory Management", description: "Real-time stock tracking, low-stock alerts, and automated reorder points." },
     ],
@@ -337,7 +337,7 @@ export const SERVICES: ServiceData[] = [
       { question: "What about product photography?", answer: "We can recommend professional product photographers in your city. We also offer basic image editing and background removal services." },
     ],
     results: [
-      { metric: "Monthly Online Revenue", value: "?4.2L", client: "Ananya Sarees, Surat" },
+      { metric: "Monthly Online Revenue", value: "Rs. 4.2L", client: "Ananya Sarees, Surat" },
       { metric: "Cart Abandonment Rate", value: "-35%", client: "FreshMart Grocery, Pune" },
       { metric: "Mobile Conversion Rate", value: "+88%", client: "Kapoor Electronics, Delhi" },
     ],
@@ -374,7 +374,7 @@ export const SERVICES: ServiceData[] = [
       { question: "What is included in website maintenance?", answer: "Our plans include security updates, uptime monitoring, daily backups, content updates (up to 2 hours/month), and priority support." },
       { question: "How quickly do you respond to issues?", answer: "Critical issues (site down, security breach) are addressed within 1 hour. Standard requests are handled within 4 business hours." },
       { question: "Do I need maintenance if my site is new?", answer: "Yes. Even new websites need regular security updates, plugin updates, and performance monitoring to stay secure and fast." },
-      { question: "Can you maintain a website you did not build?", answer: "Absolutely. We maintain websites built on any platform — WordPress, Next.js, Shopify, or custom code." },
+      { question: "Can you maintain a website you did not build?", answer: "Absolutely. We maintain websites built on any platform  -  WordPress, Next.js, Shopify, or custom code." },
       { question: "What happens if my site gets hacked?", answer: "We provide emergency malware removal and site restoration as part of all maintenance plans, at no extra cost." },
     ],
     results: [

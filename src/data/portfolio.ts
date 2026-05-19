@@ -90,7 +90,7 @@ export const PORTFOLIO: PortfolioProject[] = [
     results: [
       { metric: "Online Bookings", value: "+320%" },
       { metric: "No-show Rate", value: "-60%" },
-      { metric: "Monthly Revenue", value: "+?85,000" },
+      { metric: "Monthly Revenue", value: "+Rs. 85,000" },
     ],
     description: "A modern booking website for a premium salon in Chennai with online appointment scheduling, service menu, stylist profiles, and before/after gallery. Integrated with automated WhatsApp reminders to reduce no-shows. The salon went from zero online bookings to 120+ per month within 60 days of launch.",
   },
@@ -103,10 +103,10 @@ export const PORTFOLIO: PortfolioProject[] = [
     techStack: ["Next.js", "Razorpay", "MongoDB", "Tailwind CSS", "Google Analytics"],
     results: [
       { metric: "Direct Bookings", value: "+180%" },
-      { metric: "OTA Commission Saved", value: "?1.2L/month" },
+      { metric: "OTA Commission Saved", value: "Rs. 1.2L/month" },
       { metric: "Lighthouse Score", value: "96" },
     ],
-    description: "A direct booking website for a heritage hotel in Udaipur, reducing dependence on OTA platforms like MakeMyTrip and Booking.com. The site features a custom room booking engine, virtual tour gallery, and integrated Razorpay payment gateway. Direct bookings increased by 180%, saving over ?1.2 lakh per month in OTA commissions.",
+    description: "A direct booking website for a heritage hotel in Udaipur, reducing dependence on OTA platforms like MakeMyTrip and Booking.com. The site features a custom room booking engine, virtual tour gallery, and integrated Razorpay payment gateway. Direct bookings increased by 180%, saving over Rs. 1.2 lakh per month in OTA commissions.",
   },
   {
     id: "8",
@@ -116,7 +116,7 @@ export const PORTFOLIO: PortfolioProject[] = [
     industry: "Retail Electronics",
     techStack: ["Next.js", "Razorpay", "MongoDB", "Shiprocket", "Tailwind CSS"],
     results: [
-      { metric: "Monthly Online Revenue", value: "?3.8L" },
+      { metric: "Monthly Online Revenue", value: "Rs. 3.8L" },
       { metric: "Product Catalogue", value: "500+ Items" },
       { metric: "Repeat Purchase Rate", value: "42%" },
     ],
